@@ -1,0 +1,451 @@
+[
+
+  {
+    "name"       : "Banshee",
+    "evidence"   : [
+      "Ultraviolet",
+      "Ghost Orbs",
+      "D.O.T.S Projector"
+    ],
+    "strengths"  : [
+      "Focuses on the same player until that player is killed or has left the game"
+    ],
+    "abilities"  : [
+      "Performs singing ghost events more often than other ghost types",
+      "Frequently roams to target player outside of hunts"
+    ],
+    "weaknesses" : [
+      "Cannot kill players other than the target if the target is inside",
+      "Can produce a unique screech on the parabolic microphone"
+    ]
+  },
+
+  {
+    "name"       : "Demon",
+    "evidence"   : [
+      "Ultraviolet",
+      "Freezing Temperatures",
+      "Ghost Writing"
+    ],
+    "strengths"  : [
+      "Lower hunt cooldown than other ghosts",
+      "Higher hunt sanity threshold",
+      "Smudging prevents hunts for shorter"
+    ],
+    "abilities"  : [
+      "Rare chance to hunt at any sanity percentage"
+    ],
+    "weaknesses" : [
+      "Increased effective crucifix range"
+    ]
+  },
+
+  {
+    "name"       : "Deogen",
+    "evidence"   : [
+      "Spirit Box",
+      "Ghost Writing",
+      "D.O.T.S Projector"
+    ],
+    "strengths"  : [
+      "Always knows where players are during a hunt",
+      "Moves at a high speed with no player nearby"
+    ],
+    "abilities"  : [
+      "Can produce a unique response through the Spirit Box"
+    ],
+    "weaknesses" : [
+      "Significantly slows down when near its target",
+      "Has a lower hunt sanity threshold"
+    ]
+  },
+
+  {
+    "name"       : "Goryo",
+    "evidence"   : [
+      "EMF Level 5",
+      "Ultraviolet",
+      "D.O.T.S Projector"
+    ],
+    "strengths"  : [
+      "Usually shows itself passing through D.O.T.S on video camera only with no players nearby"
+    ],
+    "abilities"  : [
+      ""
+    ],
+    "weaknesses" : [
+      "Less likely to wander",
+      "Cannot change favorite rooms"
+    ]
+  },
+
+  {
+    "name"       : "Hantu",
+    "evidence"   : [
+      "Ultraviolet",
+      "Ghost Orbs",
+      "Freezing Temperatures"
+    ],
+    "strengths"  : [
+      "Moves quicker in colder areas during hunts"
+    ],
+    "abilities"  : [
+      "Can emit frosty breath when hunting with the breaker off"
+    ],
+    "weaknesses" : [
+      "Moves slower in warmer areas during hunts"
+    ]
+  },
+
+  {
+    "name"       : "Jinn",
+    "evidence"   : [
+      "EMF Level 5",
+      "Ultraviolet",
+      "Freezing Temperatures"
+    ],
+    "strengths"  : [
+      "Gets a speed boost when chasing a player that is far away"
+    ],
+    "abilities"  : [
+      "Occasionally attempts to zap the sanity of nearby players"
+    ],
+    "weaknesses" : [
+      "Cannot use any of its abilities when the fuse box is off",
+      "Cannot turn off the fuse box"
+    ]
+  },
+
+  {
+    "name"       : "Mare",
+    "evidence"   : [
+      "Spirit Box",
+      "Ghost Orbs",
+      "Ghost Writing"
+    ],
+    "strengths"  : [
+      "Hunts at a higher sanity threshold in an unlit room"
+    ],
+    "abilities"  : [
+      "Turns off lights and breaks lightbulbs more often",
+      "May turn off a light immediately after a player turns one on",
+      "Chooses unlit rooms to remain in more often"
+    ],
+    "weaknesses" : [
+      "Hunts at a lower sanity threshold in a lit room"
+    ]
+  },
+
+  {
+    "name"       : "Moroi",
+    "evidence"   : [
+      "Spirit Box",
+      "Ghost Writing",
+      "Freezing Temperatures"
+    ],
+    "strengths"  : [
+      "Hunting speeds depend directly on average team sanity"
+    ],
+    "abilities"  : [
+      "Can curse players through the spirit box or the parabolic microphone, making them lose sanity faster"
+    ],
+    "weaknesses" : [
+      "Will be disoriented for longer when smudged during a hunt"
+    ]
+  },
+
+  {
+    "name"       : "Myling",
+    "evidence"   : [
+      "EMF Level 5",
+      "Ultraviolet",
+      "Ghost Writing"
+    ],
+    "strengths"  : [
+      "Has quieter footsteps and vocalizations during hunts"
+    ],
+    "abilities"  : [
+      ""
+    ],
+    "weaknesses" : [
+      "Produces paranormal sounds more frequently"
+    ]
+  },
+
+  {
+    "name"       : "Obake",
+    "evidence"   : [
+      "EMF Level 5",
+      "Ultraviolet",
+      "Ghost Orbs"
+    ],
+    "strengths"  : [
+      "Fingerprints can disappear faster than usual",
+	  "Occasionally fails to leave fingerprints"
+    ],
+    "abilities"  : [
+      "Has a chance to blink in a different ghost model when hunting"
+    ],
+    "weaknesses" : [
+      "Can leave a unique fingerprint pattern"
+    ]
+  },
+
+  {
+      "name"       : "Oni",
+      "evidence"   : [
+        "EMF Level 5",
+        "Freezing Temperatures",
+        "D.O.T.S Projector"
+      ],
+      "strengths"  : [
+        "More active when people are nearby"
+      ],
+      "abilities"  : [
+        ""
+      ],
+      "weaknesses" : [
+        "Cannot produce airball ghost events",
+        "Model remains visible for longer periods when hunting"
+      ]
+    },
+
+    {
+      "name"       : "Onryo",
+      "evidence"   : [
+        "Spirit Box",
+        "Ghost Orbs",
+        "Freezing Temperatures"
+      ],
+      "strengths"  : [
+        "Can sometimes hunt at any sanity after blowing out a flame",
+        "Blows out fiery objects (candles, campfire) more often with more dead people"
+      ],
+      "abilities"  : [
+        ""
+      ],
+      "weaknesses" : [
+        "Presence of flames prevents the ghost from hunting"
+      ]
+    },
+
+    {
+      "name"       : "Phantom",
+      "evidence"   : [
+        "Spirit Box",
+        "Ultraviolet",
+        "D.O.T.S Projector"
+      ],
+      "strengths"  : [
+        "Seeing the ghost nearby during manifestations and hunts drains more sanity",
+        "Remains invisible for longer periods when hunting"
+      ],
+      "abilities"  : [
+        "Occasionally roams to a random player"
+      ],
+      "weaknesses" : [
+        "Taking a picture of the Phantom renders it temporarily invisible"
+      ]
+    },
+
+    {
+      "name"       : "Poltergeist",
+      "evidence"   : [
+        "Spirit Box",
+        "Ultraviolet",
+        "Ghost Writing"
+      ],
+      "strengths"  : [
+        "Sanity decrease stacks up during multithrow interactions"
+      ],
+      "abilities"  : [
+        "Can throw multiple objects at once",
+		"Can throw a single object farther than other ghost types"
+      ],
+      "weaknesses" : [
+        "Ineffective in empty rooms with no throwables"
+      ]
+    },
+
+    {
+      "name"       : "Raiju",
+      "evidence"   : [
+        "EMF Level 5",
+        "Ghost Orbs",
+        "D.O.T.S Projector"
+      ],
+      "strengths"  : [
+        "Active electronics boost its speed during hunts"
+      ],
+      "abilities"  : [
+        ""
+      ],
+      "weaknesses" : [
+        "Disrupts electronics from further away when manifesting"
+      ]
+    },
+
+    {
+      "name"       : "Revenant",
+      "evidence"   : [
+        "Ghost Orbs",
+        "Ghost Writing",
+        "Freezing Temperatures"
+      ],
+      "strengths"  : [
+        "Significant speed increase when chasing a player during hunts"
+      ],
+      "abilities"  : [
+        ""
+      ],
+      "weaknesses" : [
+        "Roaming speed remains low or drops over time when no player is detected"
+      ]
+    },
+
+    {
+      "name"       : "Shade",
+      "evidence"   : [
+        "EMF Level 5",
+        "Freezing Temperatures",
+        "Ghost Writing"
+      ],
+      "strengths"  : [
+        "Harder to find due to it being generally less active"
+      ],
+      "abilities"  : [
+        "Produces hissing and shadowy form ghost events more often"
+      ],
+      "weaknesses" : [
+        "Has a low hunt sanity threshold",
+		"Generally unwilling to hunt and perform interactions in the presence of players"
+      ]
+    },
+
+    {
+      "name"       : "Spirit",
+      "evidence"   : [
+        "EMF Level 5",
+        "Ghost Writing",
+        "Spirit Box"
+      ],
+      "strengths"  : [
+        ""
+      ],
+      "abilities"  : [
+        ""
+      ],
+      "weaknesses" : [
+        "Incense prevents hunts for longer (double duration)"
+      ]
+    },
+
+    {
+      "name"       : "Thaye",
+      "evidence"   : [
+        "Ghost Orbs",
+        "D.O.T.S Projector",
+        "Ghost Writing"
+      ],
+      "strengths"  : [
+        "Becomes very active the first time a player gets nearby"
+      ],
+      "abilities"  : [
+        ""
+      ],
+      "weaknesses" : [
+        "The more time players spend near it, the quieter and slower it becomes"
+      ]
+    },
+
+    {
+      "name"       : "The Mimic",
+      "evidence"   : [
+        "Spirit Box",
+        "Ultraviolet",
+        "Freezing Temperatures"
+      ],
+      "strengths"  : [
+        "Mimics other ghost types one after another for brief periods of time"
+      ],
+      "abilities"  : [
+        ""
+      ],
+      "weaknesses" : [
+        "Will always produce false ghost orbs"
+      ]
+    },
+	
+	{
+	    "name"       : "The Twins",
+	    "evidence"   : [
+	      "EMF Level 5",
+	      "Spirit Box",
+	      "Freezing Temperatures"
+	    ],
+	    "strengths"  : [
+	      "Can hunt from a different place than expected"
+	    ],
+	    "abilities"  : [
+	      "Differing speeds depending on which twin hunts"
+	    ],
+	    "weaknesses" : [
+	      "Can interact with the environment simultaneously"
+	    ]
+	  },
+
+	  {
+	    "name"       : "Wraith",
+	    "evidence"   : [
+	      "EMF Level 5",
+	      "Spirit Box",
+	      "D.O.T.S Projector"
+	    ],
+	    "strengths"  : [
+	      ""
+	    ],
+	    "abilities"  : [
+	      "Can teleport to a random player, becoming active near them, outside of ghost events and hunts"
+	    ],
+	    "weaknesses" : [
+	      "Never steps in salt"
+	    ]
+	  },
+
+	  {
+	    "name"       : "Yokai",
+	    "evidence"   : [
+	      "Spirit Box",
+	      "Ghost Orbs",
+	      "D.O.T.S Projector"
+	    ],
+	    "strengths"  : [
+	      "Talking near it will temporarily increase the hunting threshold and interaction rate"
+	    ],
+	    "abilities"  : [
+	      ""
+	    ],
+	    "weaknesses" : [
+	      "When hunting, it can only hear voices and detect electronics within a short range"
+	    ]
+	  },
+
+	  {
+	    "name"       : "Yurei",
+	    "evidence"   : [
+	      "Ghost Orbs",
+	      "Freezing Temperatures",
+	      "D.O.T.S Projector"
+	    ],
+	    "strengths"  : [
+	      ""
+	    ],
+	    "abilities"  : [
+	      "May randomly shut a door and deduct nearby players' sanity"
+	    ],
+	    "weaknesses" : [
+	      "Will be temporarily confined to its room after smudging"
+	    ]
+	  }
+	  
+]

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<title>Phasmophobia Journal</title>
+	<style>
+	    body { font-family: sans-serif; padding: 1rem; }
+	    label { display: block; margin-bottom: .5rem; }
+	  </style>
+	</head>
+	<body>
+	  <h1>Phasmophobia Ghost Helper</h1>
+
+	  <fieldset>
+	    <legend>Confirmed Evidence</legend>
+	    <div id="confirmed-boxes"></div>
+	  </fieldset>
+
+	  <fieldset>
+	    <legend>Ruled-out Evidence</legend>
+	    <div id="ruled-out-boxes"></div>
+	  </fieldset>
+
+	  <button onclick="lookup()">Show Possible Ghosts</button>
+
+	  <h2>Possible Ghosts</h2>
+	  <ul id="results"></ul>
+
+	  <script>
+	    const evidenceItems = [
+	      "EMF Level 5",
+	      "Spirit Box",
+	      "Ghost Writing",
+	      "Ghost Orbs",
+	      "D.O.T.S Projector",
+	      "Freezing Temperatures",
+		  "Ultraviolet"
+	    ];
+
+	    function makeCheckbox(name, containerId) {
+	      const container = document.getElementById(containerId);
+	      evidenceItems.forEach(item => {
+	        const label = document.createElement("label");
+	        const cb = document.createElement("input");
+	        cb.type = "checkbox";
+	        cb.value = item;
+	        cb.name = name;
+	        label.append(cb, item);
+	        container.appendChild(label);
+	      });
+	    }
+
+	    // on page load: render two groups of checkboxes
+	    makeCheckbox("confirmed", "confirmed-boxes");
+	    makeCheckbox("ruledOut", "ruled-out-boxes");
+
+	    async function lookup() {
+	      // gather checked values
+	      const confirmed = Array.from(
+	        document.querySelectorAll("#confirmed-boxes input:checked")
+	      ).map(cb => cb.value);
+	      const ruledOut = Array.from(
+	        document.querySelectorAll("#ruled-out-boxes input:checked")
+	      ).map(cb => cb.value);
+
+	      // build the query URL
+	      const url = new URL("/api/possible", window.location.origin);
+	      confirmed.forEach(e => url.searchParams.append("confirmed", e));
+	      ruledOut.forEach(e => url.searchParams.append("ruledOut", e));
+
+	      // fetch JSON and display results
+	      const res = await fetch(url);
+	      const ghosts = await res.json();
+	      const ul = document.getElementById("results");
+	      ul.innerHTML = "";           // clear old results
+	      ghosts.forEach(g => {
+	        const li = document.createElement("li");
+	        li.textContent = g;
+	        ul.append(li);
+	      });
+	    }
+	  </script>
+	</body>
+	</html>
