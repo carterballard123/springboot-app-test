@@ -50,9 +50,18 @@
 	      });
 	    }
 
-	    // on page load: render two groups of checkboxes
+	    // On page load: render two groups of checkboxes
 	    makeCheckbox("confirmed", "confirmed-boxes");
 	    makeCheckbox("ruledOut", "ruled-out-boxes");
+		
+		document.querySelectorAll("#confirmed-boxes input[type=checkbox]," +
+		"#ruled-out-boxes input[type=checkbox]").forEach(cb => {
+			
+		      cb.addEventListener("change", lookup);
+		    });
+
+		    // 3) Run it once on load so you see results right away
+		    lookup();
 
 	    async function lookup() {
 	      // gather checked values
